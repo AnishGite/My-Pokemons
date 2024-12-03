@@ -1,0 +1,222 @@
+<body>
+    <div class="container">
+        <div class="cards">
+           
+            <div class="card">
+                <div class="colour"></div>
+                <div class="card-text">
+                    <h3>Natu </h3>
+                    <p>Type: <b>Psychic and Flying</b></p>
+                </div>
+                <div class="colour-bottom"></div>
+            </div>
+            <div class="card Genesect">
+                <div class="colour"></div>
+                <div class="card-text">
+                    <h3>Genesect</h3>
+                    <p>Type: <b>Bug and Steel </b>.</p>
+                </div>
+                <div class="colour-bottom"></div>
+            </div>
+            <div class="card Solrock">
+                <div class="colour"></div>
+                <div class="card-text">
+                    <h3>Solrock</h3>
+                    <p>Type: <b>Rock and Psychic</b></p>
+                </div>
+                <div class="colour-bottom"></div>
+            </div>
+        </div>
+      
+    </div>
+  <footer>
+    <p>Made by <target="_blank" rel="noopener noreferrer">Anish</a>.
+        <br>(All pictures were taken from google and I dont own any of them.)</p>
+</footer>
+</body>
+<head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Fira+Mono:wght@500&display=swap');
+body{
+    min-height: 95vh;
+    background: #eb284c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-wrap: wrap;
+    font-family: 'Fira Mono', monospace;
+}
+*{
+  box-sizing: border-box;
+}
+h3 {
+    font-family: 'Permanent Marker', cursive;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.card {
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsJne3Bo8dQN6LMh6zxWxsydzbP70u84GBoQ&s");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    /*background: linear-gradient(145deg, #e6e6e6, #ffffff);
+   */ box-shadow:  30px 30px 40px #141313, 
+                -30px -30px 40px #1c1919;
+    transform: scale(1.05);
+    margin: 2rem;
+}
+
+.colour{
+    position: absolute;
+    width: 100%;
+    height:15%;
+    background: rgb(255,60,14);
+background: linear-gradient(125deg, rgba(255,60,14,1) 28%, rgba(255,255,102,1) 89%);
+    right: 120px;
+    top:40px;
+    transform: rotate(-45deg) translateY(-90px); 
+}
+.colour::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom:40px;
+    background-color: #FF3C0E;
+     transform: translateX(-145px);
+}
+.colour-bottom{
+     position: absolute;
+    width: 100%;
+    height: 15%;
+    background-color: rgba(97,34,28,1);
+    left: 140px;
+    top: 245px;
+     transform: rotate(-45deg) translateY(95px); ;
+}
+.colour-bottom::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom:40px;
+    background: rgb(97,34,28);
+background: linear-gradient(331deg, rgba(97,34,28,1) 40%, rgba(125,215,178,1) 66%);
+     transform: translateX(-147px);
+}
+.Genesect {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9546f6b7-1b5e-400b-9ef5-831d57f4558a/dhsebvk-4a8588aa-f7ab-46a3-a893-b13199260eed.png/v1/fill/w_815,h_980/0649__genesect__shiny__by_zhao10192009_dhsebvk-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzk1NDZmNmI3LTFiNWUtNDAwYi05ZWY1LTgzMWQ1N2Y0NTU4YVwvZGhzZWJ2ay00YTg1ODhhYS1mN2FiLTQ2YTMtYTg5My1iMTMxOTkyNjBlZWQucG5nIiwid2lkdGgiOiI8PTEwNjUifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.FcSquf3PUPIGKBHLhWruPo2nC-oV74fojSptjo_Xl9k");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Genesect .colour {
+    background: rgb(227,121,130);
+    background: linear-gradient(125deg, rgba(227,121,130,1) 28%, rgba(172,24,69,1) 89%);
+}
+.Genesect .colour::before{
+    background: rgba(172,24,69,1);
+}
+.Genesect .colour-bottom{
+    background: rgba(128,23,34,1);
+}
+.Genesect .colour-bottom::before{
+    background: rgb(128,23,34);
+background: linear-gradient(125deg, rgba(128,23,34,1) 40%, rgba(60,29,40,1) 66%);
+}
+.Solrock {
+     background-image: url("https://elymnifoquent.com/wp-content/uploads/2018/08/04solrock.png?w=840");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Solrock .colour {
+    background: rgb(254,241,163);
+background: linear-gradient(125deg, rgba(254,241,163,1) 40%, rgba(254,233,88,1) 59%);
+}
+.Solrock .colour::before{
+    background: rgba(254,233,88,1);
+}
+.Solrock .colour-bottom{
+    background: rgb(224,153,45);
+}
+.Solrock .colour-bottom::before{
+  background: rgb(224,153,45);
+background: linear-gradient(125deg, rgba(224,153,45,1) 40%, rgba(176,123,0,1) 60%);
+}
+.card-text {
+    opacity: 0;
+    position: relative;
+    top: 80px;
+    font-size: 120%;
+}
+.card:hover{
+    border-radius: 50px;
+background: linear-gradient(145deg, #e6e6e6, #ffffff);
+box-shadow:  30px 30px 40px #141313, 
+                -30px -30px 40px #1c1919;
+    animation: large .7s ease-in-out forwards;
+}
+@keyframes large {
+    100% {
+        transform: scale(.9);
+    }
+}
+.card:hover .card-text{
+    opacity: 1;
+}
+.card:hover .colour{
+    animation: move .7s ease-in-out forwards;
+}
+@keyframes move { 
+    0%{
+        transform: rotate(-45deg) translateY(-85px);
+    }
+    100% {
+         transform: rotate(-45deg) translateY(0px);
+    }
+}
+.card:hover .colour-bottom{
+    animation: move1 .7s ease-in-out forwards;
+}
+@keyframes move1 { 
+    0%{
+        transform: rotate(-45deg) translateY(90px);
+    }
+    100% {
+         transform: rotate(-45deg) translateY(0px);
+    }
+}
+footer {
+    width: 80%;
+    height:100px;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+a {
+    text-decoration: none;
+    color: rgba(224,153,45,1);
+}
+</head>
+</style>
